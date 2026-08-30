@@ -1,0 +1,755 @@
+===== dumpsys meminfo =====
+Applications Memory Usage (in Kilobytes):
+Uptime: 367302772 Realtime: 2161529359
+
+
+Total RSS by process:
+    181,000K: system (pid 704)
+    143,912K: com.google.android.gms.persistent (pid 20884)
+    135,136K: org.smarttube.stable (pid 27091 / activities)
+    134,672K: com.google.android.apps.tv.launcherx (pid 26927 / activities)
+    125,892K: com.android.tv.settings (pid 11230 / activities)
+    114,904K: com.android.vending:background (pid 30054)
+    113,092K: com.google.android.gms (pid 18913)
+    106,096K: com.spotify.tv.android (pid 29791)
+     89,448K: com.android.systemui (pid 1077)
+     83,168K: com.google.android.apps.tv.dreamx (pid 29963)
+     82,984K: com.google.android.apps.tv.launcherx:coreservices (pid 21130)
+     78,484K: com.android.bluetooth (pid 29696)
+     71,092K: com.google.android.tungsten.setupwraith (pid 29476)
+     70,832K: com.google.android.apps.mediashell (pid 24580)
+     69,580K: com.tcl.ttvs (pid 1905)
+     67,728K: com.tcl.usercenter (pid 29713)
+     63,996K: com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0 (pid 27191)
+     57,468K: com.google.android.tts (pid 22753)
+     56,780K: com.google.process.gservices (pid 30015)
+     54,452K: com.android.providers.tv (pid 29584)
+     52,264K: com.android.settings.intelligence (pid 30152)
+     52,260K: com.realtek.airplay2.daemon (pid 18114)
+     51,900K: com.google.android.katniss:interactor (pid 16553)
+     49,336K: com.tcl.miracast (pid 18269)
+     48,532K: com.tcl.suspension (pid 18179)
+     27,864K: com.tcl.systemserver (pid 1034)
+     27,624K: com.android.providers.media.module (pid 1567)
+     25,932K: com.tcl.tvinput (pid 1240)
+     25,784K: com.google.android.tv.remote.service (pid 1409)
+     25,140K: com.tcl.dashboard (pid 27589)
+     24,232K: com.google.android.ext.services (pid 1387)
+     19,224K: com.realtek.persistent.apks (pid 1288)
+     18,576K: zygote (pid 378)
+     17,672K: com.android.se (pid 1262)
+     17,084K: webview_zygote (pid 13974)
+     12,584K: wpa_supplicant (pid 29838)
+     12,308K: vendor.realtek.thal@1.0-service (pid 422)
+     11,948K: surfaceflinger (pid 463)
+      8,708K: media.metrics (pid 550)
+      8,076K: audioserver (pid 819)
+      5,460K: keystore2 (pid 309)
+      5,444K: adbd (pid 29662)
+      5,300K: android.hardware.drm@1.4-service.widevine (pid 394)
+      5,120K: android.hardware.audio.service (pid 387)
+      5,096K: netd (pid 377)
+      4,580K: android.hardware.wifi@1.0-service-lazy (pid 1028)
+      4,544K: mediaserver (pid 551)
+      4,376K: android.hardware.graphics.composer-rtk@2.4-service (pid 401)
+      4,068K: tcl_hdmi_turbo_service (pid 565)
+      3,960K: media.extractor (pid 549)
+      3,872K: init (pid 1)
+      3,776K: cameraserver (pid 540)
+      3,744K: tcl_tv_display_service (pid 564)
+      3,692K: wificond (pid 561)
+      3,676K: media.swcodec (pid 579)
+      3,652K: diagnosis (pid 1532)
+      3,596K: media.codec (pid 566)
+      3,448K: hwservicemanager (pid 251)
+      3,440K: logd (pid 248)
+      3,212K: pqalg_service (pid 259)
+      3,208K: vold (pid 260)
+      3,188K: android.hardware.bluetooth@1.0-service (pid 388)
+      3,168K: storaged (pid 560)
+      3,152K: android.hardware.graphics.allocator@4.0-service (pid 400)
+      3,100K: dumpsys (pid 30205)
+      3,096K: statsd (pid 376)
+      3,088K: media.tuner (pid 556)
+      3,064K: lmkd (pid 249)
+      3,004K: android.system.suspend@1.0-service (pid 308)
+      2,960K: servicemanager (pid 250)
+      2,928K: android.hardware.power-service.realtek (pid 316)
+      2,916K: vendor.realtek.tv@1.0-service (pid 423)
+      2,864K: ueventd (pid 238)
+      2,832K: DhcpClientd (pid 464)
+      2,804K: android.hardware.lights-service.realtek (pid 408)
+      2,736K: rtkd (pid 317)
+      2,728K: installd (pid 546)
+      2,708K: vendor.tcl.factory@1.0-service (pid 447)
+      2,700K: vendor.tcl.tvinput.extend-service (pid 454)
+      2,668K: update_engine (pid 625)
+      2,664K: vendor.realtek.media@1.0-service (pid 418)
+      2,656K: android.hardware.drm@1.3-service.chloe (pid 2240)
+      2,612K: gpuservice (pid 460)
+      2,604K: gatekeeperd (pid 624)
+      2,588K: android.hardware.drm@1.3-service.lcf (pid 2262)
+      2,584K: vendor.hardware.tv.earc-service.realtek (pid 416)
+      2,548K: init (pid 235)
+      2,504K: android.hardware.drm@1.3-service.playready (pid 391)
+      2,500K: android.hardware.power.stats-service.example (pid 415)
+      2,500K: vendor.tcl.net@1.0-service (pid 449)
+      2,480K: android.hardware.drm@1.4-service.clearkey (pid 392)
+      2,476K: android.hardware.tv.cec@1.0-service (pid 406)
+      2,472K: android.hardware.camera.provider-rtk@2.5-external-service (pid 389)
+      2,464K: credstore (pid 457)
+      2,452K: android.hidl.allocator@1.0-service (pid 386)
+      2,428K: android.hardware.health@2.1-service (pid 403)
+      2,392K: iptables-restore (pid 402)
+      2,392K: android.hardware.memtrack-service.example (pid 410)
+      2,384K: tcl_component_service (pid 534)
+      2,380K: ip6tables-restore (pid 404)
+      2,360K: drmserver (pid 506)
+      2,352K: rtk_burn_key (pid 617)
+      2,340K: aiod (pid 312)
+      2,332K: incidentd (pid 544)
+      2,328K: traced (pid 520)
+      2,324K: loadmonitor (pid 1521)
+      2,280K: vndservicemanager (pid 252)
+      2,268K: vendor.tcl.airplaykey@1.0-service (pid 424)
+      2,264K: audio_codec (pid 567)
+      2,240K: vendor.realtek.dongled@1.0-service (pid 417)
+      2,236K: vendor.tcl.ubootenv@1.0-service (pid 456)
+      2,204K: vendor.realtek.system@1.0-service (pid 421)
+      2,196K: mediaservice (pid 568)
+      2,184K: android.hardware.tv.input@1.0-service (pid 407)
+      2,176K: ipv4lld (pid 469)
+      2,172K: vendor.tcl.tcldevmanager@1.0-service (pid 452)
+      2,156K: vendor.tcl.audio@1.0-service (pid 433)
+      2,140K: tee-supplicant (pid 572)
+      2,136K: vendor.realtek.rtkconfigs@1.0-service (pid 420)
+      2,116K: android.hardware.keymaster-rtk@4.0-service (pid 261)
+      2,104K: vendor.tcl.bootreason@1.0-service (pid 445)
+      2,100K: android.hardware.boot@1.2-service (pid 314)
+      2,096K: vendor.tcl.display.screencontrol@1.0-service (pid 446)
+      2,092K: android.hardware.gatekeeper@1.0-service (pid 397)
+      2,068K: android.hardware.cas@1.2-service (pid 390)
+      2,064K: android.hardware.dumpstate@1.1-service.realtek (pid 396)
+      2,064K: securetimeservice (pid 569)
+      2,016K: android.hardware.atrace@1.0-service (pid 313)
+      1,904K: traced_probes (pid 509)
+      1,804K: tombstoned (pid 352)
+      1,752K: sh (pid 258)
+        868K: rtk_mdnsd (pid 1999)
+
+Total RSS by OOM adjustment:
+    350,068K: Native
+         18,576K: zygote (pid 378)
+         17,084K: webview_zygote (pid 13974)
+         12,584K: wpa_supplicant (pid 29838)
+         12,308K: vendor.realtek.thal@1.0-service (pid 422)
+         11,948K: surfaceflinger (pid 463)
+          8,708K: media.metrics (pid 550)
+          8,076K: audioserver (pid 819)
+          5,460K: keystore2 (pid 309)
+          5,444K: adbd (pid 29662)
+          5,300K: android.hardware.drm@1.4-service.widevine (pid 394)
+          5,120K: android.hardware.audio.service (pid 387)
+          5,096K: netd (pid 377)
+          4,580K: android.hardware.wifi@1.0-service-lazy (pid 1028)
+          4,544K: mediaserver (pid 551)
+          4,376K: android.hardware.graphics.composer-rtk@2.4-service (pid 401)
+          4,068K: tcl_hdmi_turbo_service (pid 565)
+          3,960K: media.extractor (pid 549)
+          3,872K: init (pid 1)
+          3,776K: cameraserver (pid 540)
+          3,744K: tcl_tv_display_service (pid 564)
+          3,692K: wificond (pid 561)
+          3,676K: media.swcodec (pid 579)
+          3,652K: diagnosis (pid 1532)
+          3,596K: media.codec (pid 566)
+          3,448K: hwservicemanager (pid 251)
+          3,440K: logd (pid 248)
+          3,212K: pqalg_service (pid 259)
+          3,208K: vold (pid 260)
+          3,188K: android.hardware.bluetooth@1.0-service (pid 388)
+          3,168K: storaged (pid 560)
+          3,152K: android.hardware.graphics.allocator@4.0-service (pid 400)
+          3,100K: dumpsys (pid 30205)
+          3,096K: statsd (pid 376)
+          3,088K: media.tuner (pid 556)
+          3,064K: lmkd (pid 249)
+          3,004K: android.system.suspend@1.0-service (pid 308)
+          2,960K: servicemanager (pid 250)
+          2,928K: android.hardware.power-service.realtek (pid 316)
+          2,916K: vendor.realtek.tv@1.0-service (pid 423)
+          2,864K: ueventd (pid 238)
+          2,832K: DhcpClientd (pid 464)
+          2,804K: android.hardware.lights-service.realtek (pid 408)
+          2,736K: rtkd (pid 317)
+          2,728K: installd (pid 546)
+          2,708K: vendor.tcl.factory@1.0-service (pid 447)
+          2,700K: vendor.tcl.tvinput.extend-service (pid 454)
+          2,668K: update_engine (pid 625)
+          2,664K: vendor.realtek.media@1.0-service (pid 418)
+          2,656K: android.hardware.drm@1.3-service.chloe (pid 2240)
+          2,612K: gpuservice (pid 460)
+          2,604K: gatekeeperd (pid 624)
+          2,588K: android.hardware.drm@1.3-service.lcf (pid 2262)
+          2,584K: vendor.hardware.tv.earc-service.realtek (pid 416)
+          2,548K: init (pid 235)
+          2,504K: android.hardware.drm@1.3-service.playready (pid 391)
+          2,500K: android.hardware.power.stats-service.example (pid 415)
+          2,500K: vendor.tcl.net@1.0-service (pid 449)
+          2,480K: android.hardware.drm@1.4-service.clearkey (pid 392)
+          2,476K: android.hardware.tv.cec@1.0-service (pid 406)
+          2,472K: android.hardware.camera.provider-rtk@2.5-external-service (pid 389)
+          2,464K: credstore (pid 457)
+          2,452K: android.hidl.allocator@1.0-service (pid 386)
+          2,428K: android.hardware.health@2.1-service (pid 403)
+          2,392K: iptables-restore (pid 402)
+          2,392K: android.hardware.memtrack-service.example (pid 410)
+          2,384K: tcl_component_service (pid 534)
+          2,380K: ip6tables-restore (pid 404)
+          2,360K: drmserver (pid 506)
+          2,352K: rtk_burn_key (pid 617)
+          2,340K: aiod (pid 312)
+          2,332K: incidentd (pid 544)
+          2,328K: traced (pid 520)
+          2,324K: loadmonitor (pid 1521)
+          2,280K: vndservicemanager (pid 252)
+          2,268K: vendor.tcl.airplaykey@1.0-service (pid 424)
+          2,264K: audio_codec (pid 567)
+          2,240K: vendor.realtek.dongled@1.0-service (pid 417)
+          2,236K: vendor.tcl.ubootenv@1.0-service (pid 456)
+          2,204K: vendor.realtek.system@1.0-service (pid 421)
+          2,196K: mediaservice (pid 568)
+          2,184K: android.hardware.tv.input@1.0-service (pid 407)
+          2,176K: ipv4lld (pid 469)
+          2,172K: vendor.tcl.tcldevmanager@1.0-service (pid 452)
+          2,156K: vendor.tcl.audio@1.0-service (pid 433)
+          2,140K: tee-supplicant (pid 572)
+          2,136K: vendor.realtek.rtkconfigs@1.0-service (pid 420)
+          2,116K: android.hardware.keymaster-rtk@4.0-service (pid 261)
+          2,104K: vendor.tcl.bootreason@1.0-service (pid 445)
+          2,100K: android.hardware.boot@1.2-service (pid 314)
+          2,096K: vendor.tcl.display.screencontrol@1.0-service (pid 446)
+          2,092K: android.hardware.gatekeeper@1.0-service (pid 397)
+          2,068K: android.hardware.cas@1.2-service (pid 390)
+          2,064K: android.hardware.dumpstate@1.1-service.realtek (pid 396)
+          2,064K: securetimeservice (pid 569)
+          2,016K: android.hardware.atrace@1.0-service (pid 313)
+          1,904K: traced_probes (pid 509)
+          1,804K: tombstoned (pid 352)
+          1,752K: sh (pid 258)
+            868K: rtk_mdnsd (pid 1999)
+    181,000K: System
+        181,000K: system (pid 704)
+    180,140K: Persistent
+         89,448K: com.android.systemui (pid 1077)
+         27,864K: com.tcl.systemserver (pid 1034)
+         25,932K: com.tcl.tvinput (pid 1240)
+         19,224K: com.realtek.persistent.apks (pid 1288)
+         17,672K: com.android.se (pid 1262)
+    106,108K: Persistent Service
+         78,484K: com.android.bluetooth (pid 29696)
+         27,624K: com.android.providers.media.module (pid 1567)
+    195,472K: Foreground
+        125,892K: com.android.tv.settings (pid 11230 / activities)
+         69,580K: com.tcl.ttvs (pid 1905)
+    549,980K: Visible
+        143,912K: com.google.android.gms.persistent (pid 20884)
+         82,984K: com.google.android.apps.tv.launcherx:coreservices (pid 21130)
+         70,832K: com.google.android.apps.mediashell (pid 24580)
+         67,728K: com.tcl.usercenter (pid 29713)
+         57,468K: com.google.android.tts (pid 22753)
+         51,900K: com.google.android.katniss:interactor (pid 16553)
+         25,784K: com.google.android.tv.remote.service (pid 1409)
+         25,140K: com.tcl.dashboard (pid 27589)
+         24,232K: com.google.android.ext.services (pid 1387)
+    150,128K: Perceptible
+         52,260K: com.realtek.airplay2.daemon (pid 18114)
+         49,336K: com.tcl.miracast (pid 18269)
+         48,532K: com.tcl.suspension (pid 18179)
+    134,672K: Home
+        134,672K: com.google.android.apps.tv.launcherx (pid 26927 / activities)
+    199,132K: Previous
+        135,136K: org.smarttube.stable (pid 27091 / activities)
+         63,996K: com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0 (pid 27191)
+    651,848K: Cached
+        114,904K: com.android.vending:background (pid 30054)
+        113,092K: com.google.android.gms (pid 18913)
+        106,096K: com.spotify.tv.android (pid 29791)
+         83,168K: com.google.android.apps.tv.dreamx (pid 29963)
+         71,092K: com.google.android.tungsten.setupwraith (pid 29476)
+         56,780K: com.google.process.gservices (pid 30015)
+         54,452K: com.android.providers.tv (pid 29584)
+         52,264K: com.android.settings.intelligence (pid 30152)
+
+Total RSS by category:
+    705,332K: .so mmap
+    497,012K: .jar mmap
+    298,756K: .apk mmap
+    285,944K: .oat mmap
+    247,096K: .art mmap
+    160,028K: .dex mmap
+    157,140K: Native
+    121,912K: Dalvik
+     89,936K: Other mmap
+     64,216K: Dalvik Other
+     27,432K: Other dev
+     20,736K: Unknown
+     15,356K: Stack
+      5,384K: Ashmem
+      2,268K: .ttf mmap
+          0K: Cursor
+          0K: Gfx dev
+          0K: EGL mtrack
+          0K: GL mtrack
+          0K: Other mtrack
+
+Total PSS by process:
+    128,517K: system (pid 704)
+     93,123K: com.google.android.gms.persistent (pid 20884)
+     79,664K: org.smarttube.stable (pid 27091 / activities)
+     75,449K: com.android.tv.settings (pid 11230 / activities)
+     68,783K: com.google.android.tts (pid 22753)
+     60,756K: com.google.android.apps.tv.launcherx (pid 26927 / activities)
+     58,932K: com.android.vending:background (pid 30054)
+     52,874K: com.google.android.gms (pid 18913)
+     50,807K: com.google.android.katniss:interactor (pid 16553)
+     43,269K: com.spotify.tv.android (pid 29791)
+     42,469K: com.android.systemui (pid 1077)
+     40,745K: com.google.android.apps.mediashell (pid 24580)
+     35,660K: com.tcl.ttvs (pid 1905)
+     31,959K: com.google.android.apps.tv.dreamx (pid 29963)
+     26,092K: com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0 (pid 27191)
+     25,150K: com.google.android.apps.tv.launcherx:coreservices (pid 21130)
+     25,078K: vendor.realtek.thal@1.0-service (pid 422)
+     24,652K: com.android.bluetooth (pid 29696)
+     24,364K: surfaceflinger (pid 463)
+     19,866K: com.google.android.tungsten.setupwraith (pid 29476)
+     17,066K: com.tcl.usercenter (pid 29713)
+     12,925K: com.realtek.airplay2.daemon (pid 18114)
+     11,043K: com.tcl.tvinput (pid 1240)
+     10,101K: com.android.providers.media.module (pid 1567)
+      9,482K: com.google.process.gservices (pid 30015)
+      9,458K: audioserver (pid 819)
+      9,289K: com.tcl.systemserver (pid 1034)
+      9,126K: wpa_supplicant (pid 29838)
+      8,670K: media.metrics (pid 550)
+      8,257K: com.google.android.tv.remote.service (pid 1409)
+      8,220K: com.tcl.miracast (pid 18269)
+      7,735K: com.android.providers.tv (pid 29584)
+      7,552K: tcl_tv_display_service (pid 564)
+      7,130K: com.android.settings.intelligence (pid 30152)
+      6,798K: com.google.android.ext.services (pid 1387)
+      6,730K: com.tcl.suspension (pid 18179)
+      6,641K: com.tcl.dashboard (pid 27589)
+      6,381K: android.hardware.audio.service (pid 387)
+      5,696K: mediaserver (pid 551)
+      5,179K: android.hardware.drm@1.4-service.widevine (pid 394)
+      5,097K: media.extractor (pid 549)
+      4,807K: keystore2 (pid 309)
+      4,795K: com.realtek.persistent.apks (pid 1288)
+      4,322K: webview_zygote (pid 13974)
+      4,236K: com.android.se (pid 1262)
+      4,186K: zygote (pid 378)
+      4,027K: media.swcodec (pid 579)
+      3,973K: init (pid 1)
+      3,659K: cameraserver (pid 540)
+      3,613K: media.codec (pid 566)
+      3,514K: netd (pid 377)
+      3,341K: vendor.realtek.tv@1.0-service (pid 423)
+      3,333K: android.hardware.graphics.composer-rtk@2.4-service (pid 401)
+      2,834K: pqalg_service (pid 259)
+      2,810K: DhcpClientd (pid 464)
+      2,780K: logd (pid 248)
+      2,658K: vendor.realtek.media@1.0-service (pid 418)
+      2,465K: storaged (pid 560)
+      2,378K: android.hardware.wifi@1.0-service-lazy (pid 1028)
+      2,235K: ueventd (pid 238)
+      2,075K: media.tuner (pid 556)
+      2,049K: installd (pid 546)
+      2,013K: adbd (pid 29662)
+      1,967K: statsd (pid 376)
+      1,938K: tcl_hdmi_turbo_service (pid 565)
+      1,923K: init (pid 235)
+      1,899K: vold (pid 260)
+      1,855K: wificond (pid 561)
+      1,740K: vendor.tcl.factory@1.0-service (pid 447)
+      1,729K: android.hardware.camera.provider-rtk@2.5-external-service (pid 389)
+      1,635K: vendor.tcl.tvinput.extend-service (pid 454)
+      1,447K: rtkd (pid 317)
+      1,439K: vendor.tcl.tcldevmanager@1.0-service (pid 452)
+      1,396K: hwservicemanager (pid 251)
+      1,302K: android.hardware.bluetooth@1.0-service (pid 388)
+      1,272K: update_engine (pid 625)
+      1,221K: diagnosis (pid 1532)
+      1,216K: android.hardware.power-service.realtek (pid 316)
+      1,201K: gpuservice (pid 460)
+      1,181K: android.hardware.graphics.allocator@4.0-service (pid 400)
+      1,158K: servicemanager (pid 250)
+      1,144K: rtk_mdnsd (pid 1999)
+      1,110K: android.system.suspend@1.0-service (pid 308)
+      1,109K: android.hardware.drm@1.3-service.chloe (pid 2240)
+      1,048K: iptables-restore (pid 402)
+      1,039K: aiod (pid 312)
+      1,011K: android.hardware.tv.cec@1.0-service (pid 406)
+      1,010K: android.hardware.drm@1.3-service.playready (pid 391)
+      1,000K: ip6tables-restore (pid 404)
+        992K: android.hardware.keymaster-rtk@4.0-service (pid 261)
+        990K: android.hardware.drm@1.3-service.lcf (pid 2262)
+        983K: vendor.realtek.rtkconfigs@1.0-service (pid 420)
+        974K: android.hardware.drm@1.4-service.clearkey (pid 392)
+        942K: android.hardware.tv.input@1.0-service (pid 407)
+        940K: android.hardware.lights-service.realtek (pid 408)
+        937K: vendor.hardware.tv.earc-service.realtek (pid 416)
+        923K: drmserver (pid 506)
+        912K: vendor.realtek.system@1.0-service (pid 421)
+        906K: traced (pid 520)
+        897K: vendor.tcl.display.screencontrol@1.0-service (pid 446)
+        890K: vendor.tcl.net@1.0-service (pid 449)
+        874K: credstore (pid 457)
+        832K: android.hardware.dumpstate@1.1-service.realtek (pid 396)
+        805K: securetimeservice (pid 569)
+        791K: vendor.realtek.dongled@1.0-service (pid 417)
+        788K: android.hardware.health@2.1-service (pid 403)
+        775K: android.hardware.cas@1.2-service (pid 390)
+        763K: gatekeeperd (pid 624)
+        760K: incidentd (pid 544)
+        760K: vendor.tcl.ubootenv@1.0-service (pid 456)
+        758K: android.hardware.boot@1.2-service (pid 314)
+        730K: rtk_burn_key (pid 617)
+        719K: audio_codec (pid 567)
+        718K: android.hardware.gatekeeper@1.0-service (pid 397)
+        706K: vndservicemanager (pid 252)
+        691K: vendor.tcl.airplaykey@1.0-service (pid 424)
+        677K: lmkd (pid 249)
+        675K: mediaservice (pid 568)
+        665K: dumpsys (pid 30205)
+        665K: android.hardware.power.stats-service.example (pid 415)
+        656K: vendor.tcl.audio@1.0-service (pid 433)
+        632K: android.hardware.memtrack-service.example (pid 410)
+        627K: vendor.tcl.bootreason@1.0-service (pid 445)
+        626K: tee-supplicant (pid 572)
+        622K: android.hardware.atrace@1.0-service (pid 313)
+        607K: android.hidl.allocator@1.0-service (pid 386)
+        596K: tcl_component_service (pid 534)
+        581K: traced_probes (pid 509)
+        573K: sh (pid 258)
+        555K: ipv4lld (pid 469)
+        467K: loadmonitor (pid 1521)
+        429K: tombstoned (pid 352)
+
+Total PSS by OOM adjustment:
+    238,072K: Native
+         25,078K: vendor.realtek.thal@1.0-service (pid 422)
+         24,364K: surfaceflinger (pid 463)
+          9,458K: audioserver (pid 819)
+          9,126K: wpa_supplicant (pid 29838)
+          8,670K: media.metrics (pid 550)
+          7,552K: tcl_tv_display_service (pid 564)
+          6,381K: android.hardware.audio.service (pid 387)
+          5,696K: mediaserver (pid 551)
+          5,179K: android.hardware.drm@1.4-service.widevine (pid 394)
+          5,097K: media.extractor (pid 549)
+          4,807K: keystore2 (pid 309)
+          4,322K: webview_zygote (pid 13974)
+          4,186K: zygote (pid 378)
+          4,027K: media.swcodec (pid 579)
+          3,973K: init (pid 1)
+          3,659K: cameraserver (pid 540)
+          3,613K: media.codec (pid 566)
+          3,514K: netd (pid 377)
+          3,341K: vendor.realtek.tv@1.0-service (pid 423)
+          3,333K: android.hardware.graphics.composer-rtk@2.4-service (pid 401)
+          2,834K: pqalg_service (pid 259)
+          2,810K: DhcpClientd (pid 464)
+          2,780K: logd (pid 248)
+          2,658K: vendor.realtek.media@1.0-service (pid 418)
+          2,465K: storaged (pid 560)
+          2,378K: android.hardware.wifi@1.0-service-lazy (pid 1028)
+          2,235K: ueventd (pid 238)
+          2,075K: media.tuner (pid 556)
+          2,049K: installd (pid 546)
+          2,013K: adbd (pid 29662)
+          1,967K: statsd (pid 376)
+          1,938K: tcl_hdmi_turbo_service (pid 565)
+          1,923K: init (pid 235)
+          1,899K: vold (pid 260)
+          1,855K: wificond (pid 561)
+          1,740K: vendor.tcl.factory@1.0-service (pid 447)
+          1,729K: android.hardware.camera.provider-rtk@2.5-external-service (pid 389)
+          1,635K: vendor.tcl.tvinput.extend-service (pid 454)
+          1,447K: rtkd (pid 317)
+          1,439K: vendor.tcl.tcldevmanager@1.0-service (pid 452)
+          1,396K: hwservicemanager (pid 251)
+          1,302K: android.hardware.bluetooth@1.0-service (pid 388)
+          1,272K: update_engine (pid 625)
+          1,221K: diagnosis (pid 1532)
+          1,216K: android.hardware.power-service.realtek (pid 316)
+          1,201K: gpuservice (pid 460)
+          1,181K: android.hardware.graphics.allocator@4.0-service (pid 400)
+          1,158K: servicemanager (pid 250)
+          1,144K: rtk_mdnsd (pid 1999)
+          1,110K: android.system.suspend@1.0-service (pid 308)
+          1,109K: android.hardware.drm@1.3-service.chloe (pid 2240)
+          1,048K: iptables-restore (pid 402)
+          1,039K: aiod (pid 312)
+          1,011K: android.hardware.tv.cec@1.0-service (pid 406)
+          1,010K: android.hardware.drm@1.3-service.playready (pid 391)
+          1,000K: ip6tables-restore (pid 404)
+            992K: android.hardware.keymaster-rtk@4.0-service (pid 261)
+            990K: android.hardware.drm@1.3-service.lcf (pid 2262)
+            983K: vendor.realtek.rtkconfigs@1.0-service (pid 420)
+            974K: android.hardware.drm@1.4-service.clearkey (pid 392)
+            942K: android.hardware.tv.input@1.0-service (pid 407)
+            940K: android.hardware.lights-service.realtek (pid 408)
+            937K: vendor.hardware.tv.earc-service.realtek (pid 416)
+            923K: drmserver (pid 506)
+            912K: vendor.realtek.system@1.0-service (pid 421)
+            906K: traced (pid 520)
+            897K: vendor.tcl.display.screencontrol@1.0-service (pid 446)
+            890K: vendor.tcl.net@1.0-service (pid 449)
+            874K: credstore (pid 457)
+            832K: android.hardware.dumpstate@1.1-service.realtek (pid 396)
+            805K: securetimeservice (pid 569)
+            791K: vendor.realtek.dongled@1.0-service (pid 417)
+            788K: android.hardware.health@2.1-service (pid 403)
+            775K: android.hardware.cas@1.2-service (pid 390)
+            763K: gatekeeperd (pid 624)
+            760K: incidentd (pid 544)
+            760K: vendor.tcl.ubootenv@1.0-service (pid 456)
+            758K: android.hardware.boot@1.2-service (pid 314)
+            730K: rtk_burn_key (pid 617)
+            719K: audio_codec (pid 567)
+            718K: android.hardware.gatekeeper@1.0-service (pid 397)
+            706K: vndservicemanager (pid 252)
+            691K: vendor.tcl.airplaykey@1.0-service (pid 424)
+            677K: lmkd (pid 249)
+            675K: mediaservice (pid 568)
+            665K: dumpsys (pid 30205)
+            665K: android.hardware.power.stats-service.example (pid 415)
+            656K: vendor.tcl.audio@1.0-service (pid 433)
+            632K: android.hardware.memtrack-service.example (pid 410)
+            627K: vendor.tcl.bootreason@1.0-service (pid 445)
+            626K: tee-supplicant (pid 572)
+            622K: android.hardware.atrace@1.0-service (pid 313)
+            607K: android.hidl.allocator@1.0-service (pid 386)
+            596K: tcl_component_service (pid 534)
+            581K: traced_probes (pid 509)
+            573K: sh (pid 258)
+            555K: ipv4lld (pid 469)
+            467K: loadmonitor (pid 1521)
+            429K: tombstoned (pid 352)
+    128,517K: System
+        128,517K: system (pid 704)
+     71,832K: Persistent
+         42,469K: com.android.systemui (pid 1077)
+         11,043K: com.tcl.tvinput (pid 1240)
+          9,289K: com.tcl.systemserver (pid 1034)
+          4,795K: com.realtek.persistent.apks (pid 1288)
+          4,236K: com.android.se (pid 1262)
+     34,753K: Persistent Service
+         24,652K: com.android.bluetooth (pid 29696)
+         10,101K: com.android.providers.media.module (pid 1567)
+    111,109K: Foreground
+         75,449K: com.android.tv.settings (pid 11230 / activities)
+         35,660K: com.tcl.ttvs (pid 1905)
+    317,370K: Visible
+         93,123K: com.google.android.gms.persistent (pid 20884)
+         68,783K: com.google.android.tts (pid 22753)
+         50,807K: com.google.android.katniss:interactor (pid 16553)
+         40,745K: com.google.android.apps.mediashell (pid 24580)
+         25,150K: com.google.android.apps.tv.launcherx:coreservices (pid 21130)
+         17,066K: com.tcl.usercenter (pid 29713)
+          8,257K: com.google.android.tv.remote.service (pid 1409)
+          6,798K: com.google.android.ext.services (pid 1387)
+          6,641K: com.tcl.dashboard (pid 27589)
+     27,875K: Perceptible
+         12,925K: com.realtek.airplay2.daemon (pid 18114)
+          8,220K: com.tcl.miracast (pid 18269)
+          6,730K: com.tcl.suspension (pid 18179)
+     60,756K: Home
+         60,756K: com.google.android.apps.tv.launcherx (pid 26927 / activities)
+    105,756K: Previous
+         79,664K: org.smarttube.stable (pid 27091 / activities)
+         26,092K: com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0 (pid 27191)
+    231,247K: Cached
+         58,932K: com.android.vending:background (pid 30054)
+         52,874K: com.google.android.gms (pid 18913)
+         43,269K: com.spotify.tv.android (pid 29791)
+         31,959K: com.google.android.apps.tv.dreamx (pid 29963)
+         19,866K: com.google.android.tungsten.setupwraith (pid 29476)
+          9,482K: com.google.process.gservices (pid 30015)
+          7,735K: com.android.providers.tv (pid 29584)
+          7,130K: com.android.settings.intelligence (pid 30152)
+
+Total PSS by category:
+    207,286K: .apk mmap
+    139,567K: Native
+    126,984K: .dex mmap
+    105,583K: Dalvik
+     78,742K: .so mmap
+     50,776K: .art mmap
+     48,064K: .jar mmap
+     43,332K: Dalvik Other
+     17,124K: Unknown
+     15,216K: Stack
+     12,475K: .oat mmap
+     12,043K: Other mmap
+      1,094K: .ttf mmap
+        597K: Ashmem
+        466K: Other dev
+          0K: Cursor
+          0K: Gfx dev
+          0K: EGL mtrack
+          0K: GL mtrack
+          0K: Other mtrack
+
+Total RAM: 1,807,396K (status normal)
+ Free RAM:   582,927K (  231,247K cached pss +   270,044K cached kernel +    81,636K free)
+      ION:         0K (        0K mapped +         0K unmapped +         0K pools)
+      GPU:   148,680K (  148,680K dmabuf +         0K private)
+ Used RAM: 1,337,420K (1,096,040K used pss +   241,380K kernel)
+ Lost RAM:   243,911K
+     ZRAM:   111,076K physical used for   479,812K in swap (  665,596K total swap)
+   Tuning: 192 (large 384), oom    81,920K, restore limit    27,306K (high-end-gfx)
+
+===== system packages =====
+package:com.android.cts.priv.ctsshim
+package:com.google.android.ext.services
+package:com.google.android.apps.mediashell
+package:com.google.android.katniss
+package:com.tcl.esticker
+package:com.android.dynsystem
+package:android.autoinstalls.config.google.gtvpai
+package:com.tcl.initsetup
+package:com.android.providers.calendar
+package:com.android.tv.settings
+package:com.tcl.tvinput
+package:com.android.providers.media
+package:com.google.android.onetimeinitializer
+package:com.google.android.ext.shared
+package:com.tcl.factory.view
+package:com.google.android.apps.tv.launcherx
+package:com.android.externalstorage
+package:com.android.htmlviewer
+package:com.android.companiondevicemanager
+package:com.android.providers.downloads
+package:com.android.providers.tv
+package:com.android.tv.frameworkpackagestubs
+package:com.android.networkstack.inprocess
+package:com.tcl.UpdatePeripheral
+package:com.android.tv.settings.gms.resoverlay
+package:com.tcl.useragreement
+package:com.tcl.miracast
+package:com.google.android.tungsten.setupwraith
+package:com.realtek.tv.overlay.framework
+package:com.tcl.ocean.instructions
+package:com.tcl.gamebar
+package:com.google.android.overlay.modules.permissioncontroller
+package:com.google.android.overlay.googlewebview
+package:com.android.tv.overlay.settingsprovider
+package:com.android.vending
+package:com.android.pacprocessor
+package:com.android.connectivity.resources
+package:com.tcl.suspension
+package:com.tcl.channelplus
+package:com.android.certinstaller
+package:com.google.android.marvin.talkback
+package:android
+package:com.tcl.airplay2
+package:com.tcl.inputmethod.international
+package:com.android.backupconfirm
+package:com.tvos
+package:com.realtek.airplay2
+package:com.tcl.guard
+package:com.android.statementservice
+package:com.android.settings.intelligence
+package:com.tcl.logkit
+package:com.google.android.permissioncontroller
+package:com.realtek.wifi.resources.overlay
+package:com.amazon.amazonvideo.livingroom
+package:com.android.providers.settings
+package:com.android.sharedstoragebackup
+package:com.tcl.waterfall.overseas
+package:com.android.printspooler
+package:com.android.dreams.basic
+package:com.tcl.t_solo
+package:com.google.android.overlay.modules.ext.services
+package:com.tcl.hearaid
+package:com.android.se
+package:com.android.inputdevices
+package:com.android.tv.overlay.lowram
+package:tv.samba.ssm.ui
+package:com.android.tv.overlay.wifi.resources
+package:com.google.android.modulemetadata
+package:com.google.android.webview
+package:com.android.keychain
+package:com.google.android.youtube.tvmusic
+package:com.google.android.packageinstaller
+package:com.google.android.gms
+package:com.google.android.gsf
+package:com.google.android.tts
+package:com.android.wifi.resources
+package:com.google.android.partnersetup
+package:com.android.localtransport
+package:com.google.android.videos
+package:com.tcl.android.webview
+package:com.tcl.systemserver
+package:com.tcl.partnercustomizer
+package:com.tcl.repairguide
+package:com.android.proxyhandler
+package:com.google.android.overlay.modules.permissioncontroller.forframework
+package:com.google.android.feedback
+package:com.google.android.syncadapters.calendar
+package:com.android.managedprovisioning
+package:com.tcl.magiconnectfree
+package:com.tcl.interactive
+package:com.android.soundpicker
+package:com.tcl.globalkeyoverlay
+package:com.android.tethering.overlay
+package:com.realtek.power
+package:com.tcl.tv.tclhome_passive
+package:com.android.wallpaper.livepicker
+package:com.tcl.providers.config
+package:com.android.tv.settings.google.resoverlay
+package:com.tcl.usercenter
+package:com.android.tv.overlay.networkstack.inprocess
+package:com.google.android.apps.tv.dreamx
+package:com.netflix.tokenmanager
+package:com.android.networkstack.tethering.inprocess
+package:com.android.networkstack.permissionconfig
+package:com.tcl.tv
+package:com.android.cts.ctsshim
+package:com.google.android.overlay.gtvssettingsprovider
+package:com.google.android.overlay.modules.modulemetadata.forframework
+package:com.tcl.autopair
+package:com.google.android.youtube.tv
+package:com.android.tv.settings.vendor.resoverlay
+package:com.android.vpndialogs
+package:com.tcl.smartalexa
+package:com.google.android.overlay.gtvsconfigx
+package:com.tcl.ui_mediaCenter
+package:com.android.shell
+package:com.tcl.dashboard
+package:com.android.wallpaperbackup
+package:com.android.providers.userdictionary
+package:com.android.providers.media.module
+package:com.tcl.messagebox
+package:com.android.hotspot2.osulogin
+package:com.google.android.tv.remote.service
+package:com.android.location.fused
+package:com.android.systemui
+package:android.auto_generated_rro_product__
+package:com.google.android.play.games
+package:com.tcl.ttvs
+package:com.netflix.ninja
+package:com.android.bluetooth
+package:com.android.providers.contacts
+package:com.realtek.dongledetect
+package:com.android.captiveportallogin
+package:com.tcl.exhibit
+package:com.android.tethering.overlay.gsi
+package:com.google.android.inputmethod.latin
+
+===== already disabled packages =====
+
+Saved to: /Users/pawelsoron/tv-debloat/before-measurements.txt
