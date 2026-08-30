@@ -1,0 +1,1 @@
+- [Remote ADB limitation](remote-adb-lan.md) — TV ADB on a private home network must be operated from the user's local computer; the workspace session cannot reach that LAN.
